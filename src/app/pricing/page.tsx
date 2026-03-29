@@ -3,6 +3,7 @@ import Hero from '@/components/Hero';
 import PricingCard from '@/components/PricingCard';
 import FAQSection from '@/components/FAQSection';
 import CTASection from '@/components/CTASection';
+import Icon from '@/components/Icon';
 
 export const metadata: Metadata = {
   title: 'Pricing — BeMyCrew',
@@ -72,11 +73,11 @@ const plans = [
 ];
 
 const allPlansInclude = [
-  { icon: '🎓', label: 'Free onboarding & setup' },
-  { icon: '📱', label: 'PWA mobile app (iOS & Android)' },
-  { icon: '🔒', label: 'SSL encryption & data security' },
-  { icon: '✅', label: '99.9% uptime SLA' },
-  { icon: '📧', label: 'Email & chat support' },
+  { icon: 'GraduationCap', label: 'Free onboarding & setup' },
+  { icon: 'Smartphone', label: 'PWA mobile app (iOS & Android)' },
+  { icon: 'Lock', label: 'SSL encryption & data security' },
+  { icon: 'CheckCircle', label: '99.9% uptime SLA' },
+  { icon: 'Mail', label: 'Email & chat support' },
 ];
 
 const pricingFaqs = [
@@ -145,7 +146,7 @@ export default function PricingPage() {
                 key={item.label}
                 className="flex flex-col items-center text-center p-6 bg-slate-50 rounded-xl"
               >
-                <span className="text-2xl mb-3">{item.icon}</span>
+                <Icon name={item.icon} className="w-6 h-6 text-blue-600 mb-3" />
                 <span className="text-sm font-medium text-slate-700">{item.label}</span>
               </div>
             ))}

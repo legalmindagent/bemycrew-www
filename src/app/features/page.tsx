@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Hero from '@/components/Hero';
 import FeatureCard from '@/components/FeatureCard';
 import CTASection from '@/components/CTASection';
+import Icon from '@/components/Icon';
 import {
   featuresByCategory,
   categoryLabels,
@@ -18,10 +19,10 @@ export const metadata: Metadata = {
 const categoryOrder: FeatureCategory[] = ['office', 'field', 'customer', 'ai'];
 
 const categoryIcons: Record<FeatureCategory, string> = {
-  office: '🏢',
-  field: '📱',
-  customer: '⭐',
-  ai: '🤖',
+  office: 'Building',
+  field: 'Smartphone',
+  customer: 'Star',
+  ai: 'Brain',
 };
 
 export default function FeaturesPage() {
@@ -39,8 +40,8 @@ export default function FeaturesPage() {
         <section key={category} className="py-16 sm:py-24 even:bg-slate-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center gap-3 mb-4">
-              <span className="w-12 h-12 flex items-center justify-center text-2xl bg-blue-50 rounded-xl">
-                {categoryIcons[category]}
+              <span className="w-12 h-12 flex items-center justify-center bg-blue-50 rounded-xl">
+                <Icon name={categoryIcons[category]} className="w-6 h-6 text-blue-600" />
               </span>
               <h2 className="text-3xl font-bold text-slate-900 tracking-tight">
                 {categoryLabels[category]}

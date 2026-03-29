@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import Hero from '@/components/Hero';
 import CTASection from '@/components/CTASection';
+import Icon from '@/components/Icon';
 
 export const metadata: Metadata = {
   title: 'Resources — BeMyCrew',
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
 
 const resources = [
   {
-    icon: '📝',
+    icon: 'FileText',
     title: 'Blog',
     description:
       'Tips, guides, and industry insights to help you run a more profitable field service business.',
@@ -19,7 +20,7 @@ const resources = [
     cta: 'Read Articles',
   },
   {
-    icon: '❓',
+    icon: 'HelpCircle',
     title: 'FAQ',
     description:
       'Quick answers to the most common questions about BeMyCrew features, pricing, and setup.',
@@ -27,7 +28,7 @@ const resources = [
     cta: 'View FAQs',
   },
   {
-    icon: '🎓',
+    icon: 'GraduationCap',
     title: 'Help Center',
     description:
       'Step-by-step tutorials, video walkthroughs, and documentation to get the most out of BeMyCrew.',
@@ -35,7 +36,7 @@ const resources = [
     cta: 'Get Help',
   },
   {
-    icon: '🔄',
+    icon: 'ArrowLeftRight',
     title: 'Competitor Comparisons',
     description:
       'See how BeMyCrew stacks up against FieldPulse, ServiceTitan, Jobber, and Housecall Pro.',
@@ -43,7 +44,7 @@ const resources = [
     cta: 'Compare Now',
   },
   {
-    icon: '🏭',
+    icon: 'Factory',
     title: 'Industry Solutions',
     description:
       'Discover how BeMyCrew is built for your specific trade — HVAC, plumbing, electrical, and more.',
@@ -51,7 +52,7 @@ const resources = [
     cta: 'Find Your Industry',
   },
   {
-    icon: '💰',
+    icon: 'DollarSign',
     title: 'Pricing',
     description:
       'Simple, flat-rate pricing with no per-user fees. See which plan is right for your business.',
@@ -80,8 +81,8 @@ export default function ResourcesPage() {
                 href={resource.href}
                 className="group block p-8 bg-white rounded-xl border border-slate-200 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-500/5 transition-all duration-200"
               >
-                <div className="w-14 h-14 flex items-center justify-center text-3xl bg-slate-50 group-hover:bg-blue-50 rounded-xl transition-colors mb-5">
-                  {resource.icon}
+                <div className="w-14 h-14 flex items-center justify-center bg-slate-50 group-hover:bg-blue-50 rounded-xl transition-colors mb-5">
+                  <Icon name={resource.icon} className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900 group-hover:text-blue-600 transition-colors mb-2">
                   {resource.title}

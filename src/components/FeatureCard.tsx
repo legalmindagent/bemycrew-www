@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Icon from './Icon';
 
 interface FeatureCardProps {
   icon: string;
@@ -13,8 +14,8 @@ export default function FeatureCard({ icon, title, description, href }: FeatureC
       href={href}
       className="group block p-6 bg-white rounded-xl border border-slate-200 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-500/5 transition-all duration-200"
     >
-      <div className="w-12 h-12 flex items-center justify-center text-2xl bg-slate-50 group-hover:bg-blue-50 rounded-lg transition-colors mb-4">
-        {icon}
+      <div className="w-12 h-12 flex items-center justify-center bg-slate-50 group-hover:bg-blue-50 rounded-lg transition-colors mb-4">
+        <Icon name={icon} className="w-8 h-8 text-blue-600" />
       </div>
       <h3 className="text-lg font-semibold text-slate-900 group-hover:text-blue-600 transition-colors mb-2">
         {title}

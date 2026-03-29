@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Icon from './Icon';
 
 interface IndustryHeroProps {
   industry: string;
@@ -20,8 +21,8 @@ export default function IndustryHero({ industry, description, icon }: IndustryHe
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-3 mb-6">
-            <span className="w-14 h-14 flex items-center justify-center text-3xl bg-white/10 backdrop-blur rounded-xl border border-white/10">
-              {icon}
+            <span className="w-14 h-14 flex items-center justify-center bg-white/10 backdrop-blur rounded-xl border border-white/10">
+              <Icon name={icon} className="w-8 h-8 text-white" />
             </span>
             <span className="text-sm font-medium text-blue-300 uppercase tracking-wider">
               {industry} Software

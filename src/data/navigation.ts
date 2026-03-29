@@ -114,10 +114,10 @@ export const mainNavigation: NavItem[] = [
         {
           label: 'BeMyCrew vs',
           links: [
-            { label: 'vs FieldPulse', href: '/compare/fieldpulse', description: 'More AI, flat-rate pricing' },
-            { label: 'vs ServiceTitan', href: '/compare/servicetitan', description: '90% of the features at 10% of the cost' },
-            { label: 'vs Jobber', href: '/compare/jobber', description: 'More features, no per-user fees' },
-            { label: 'vs Housecall Pro', href: '/compare/housecall-pro', description: 'AI-powered, flat-rate pricing' },
+            { label: 'vs FieldPulse', href: '/comparisons/fieldpulse', description: 'More AI, flat-rate pricing' },
+            { label: 'vs ServiceTitan', href: '/comparisons/servicetitan', description: '90% of the features at 10% of the cost' },
+            { label: 'vs Jobber', href: '/comparisons/jobber', description: 'More features, no per-user fees' },
+            { label: 'vs Housecall Pro', href: '/comparisons/housecall-pro', description: 'AI-powered, flat-rate pricing' },
           ],
         },
       ],
@@ -154,10 +154,10 @@ export const footerNavigation = {
   compare: {
     label: 'Compare',
     links: [
-      { label: 'vs FieldPulse', href: '/compare/fieldpulse' },
-      { label: 'vs ServiceTitan', href: '/compare/servicetitan' },
-      { label: 'vs Jobber', href: '/compare/jobber' },
-      { label: 'vs Housecall Pro', href: '/compare/housecall-pro' },
+      { label: 'vs FieldPulse', href: '/comparisons/fieldpulse' },
+      { label: 'vs ServiceTitan', href: '/comparisons/servicetitan' },
+      { label: 'vs Jobber', href: '/comparisons/jobber' },
+      { label: 'vs Housecall Pro', href: '/comparisons/housecall-pro' },
     ],
   },
   company: {

@@ -14,7 +14,7 @@ export const industries: Industry[] = [
     name: 'HVAC & Refrigeration',
     description:
       'Purpose-built field service software for HVAC contractors. Manage installations, repairs, and maintenance agreements with AI-powered dispatch and smart scheduling.',
-    icon: '❄️',
+    icon: 'Thermometer',
     heroDescription:
       'Run your HVAC business smarter with AI-powered dispatch, maintenance agreement tracking, and Good/Better/Best proposals that increase your average ticket by 20-30%.',
     features: [
@@ -44,7 +44,7 @@ export const industries: Industry[] = [
     name: 'Plumbing',
     description:
       'Field service management designed for plumbing companies. From emergency drain calls to full repipes, manage every job with real-time dispatch and mobile tools.',
-    icon: '🔧',
+    icon: 'Droplets',
     heroDescription:
       'Keep your plumbing business flowing with instant dispatch, on-my-way texts that eliminate "where is my plumber" calls, and same-day payment collection that ends the accounts receivable chase.',
     features: [
@@ -74,7 +74,7 @@ export const industries: Industry[] = [
     name: 'Electrical',
     description:
       'Electrical contractor software with custom inspection forms, certification tracking, and compliance documentation built in.',
-    icon: '⚡',
+    icon: 'Zap',
     heroDescription:
       'Power your electrical business with digital inspection forms, compliance documentation, and AI inventory that identifies parts from a photo — so your team works faster and safer.',
     features: [
@@ -104,7 +104,7 @@ export const industries: Industry[] = [
     name: 'Garage Door',
     description:
       'Garage door service software with Good/Better/Best proposals, consumer financing, and review automation to grow your business.',
-    icon: '🚪',
+    icon: 'DoorOpen',
     heroDescription:
       'Grow your garage door business with tiered proposals that upsell premium options, consumer financing that closes big-ticket sales, and automated review requests that build your online reputation.',
     features: [
@@ -134,7 +134,7 @@ export const industries: Industry[] = [
     name: 'Locksmith',
     description:
       'Locksmith business software with real-time dispatch, route optimization, and on-my-way tracking for fast-response service.',
-    icon: '🔑',
+    icon: 'KeyRound',
     heroDescription:
       'Run your locksmith business at the speed your customers demand with real-time GPS dispatch, route optimization, and on-my-way texts that set expectations while your tech races to the scene.',
     features: [
@@ -164,7 +164,7 @@ export const industries: Industry[] = [
     name: 'Property Management',
     description:
       'Field service software for property managers. Coordinate maintenance across multiple properties with tenant portals, vendor management, and work order tracking.',
-    icon: '🏠',
+    icon: 'Building2',
     heroDescription:
       'Simplify property maintenance with a tenant-facing portal for service requests, multi-location management across your portfolio, and automated workflows that keep maintenance on schedule.',
     features: [
@@ -194,7 +194,7 @@ export const industries: Industry[] = [
     name: 'Appliance Repair',
     description:
       'Appliance repair software with AI inventory identification, barcode scanning, and parts management to speed up every repair.',
-    icon: '🔌',
+    icon: 'Wrench',
     heroDescription:
       'Fix more appliances on the first visit with AI-powered parts identification, barcode scanning for instant inventory lookup, and a mobile app that gives your techs everything they need in the field.',
     features: [
@@ -224,7 +224,7 @@ export const industries: Industry[] = [
     name: 'Fire & Security',
     description:
       'Fire and security system software with inspection forms, compliance tracking, and service agreement management for recurring contracts.',
-    icon: '🔥',
+    icon: 'ShieldCheck',
     heroDescription:
       'Stay compliant and profitable with digital inspection forms, automated service agreement scheduling, and compliance documentation that is always audit-ready.',
     features: [
@@ -254,7 +254,7 @@ export const industries: Industry[] = [
     name: 'General Contractors',
     description:
       'Project management and field service software for general contractors. Track milestones, budgets, subcontractors, and multi-phase projects in one platform.',
-    icon: '🏗️',
+    icon: 'HardHat',
     heroDescription:
       'Keep complex projects on budget and on schedule with milestone tracking, progress billing, and a mobile app that keeps your entire crew connected from the job site.',
     features: [
@@ -284,7 +284,7 @@ export const industries: Industry[] = [
     name: 'Home Services',
     description:
       'All-in-one field service software for home service businesses. Cleaning, handyman, pest control, landscaping — if you serve residential customers, BeMyCrew fits your workflow.',
-    icon: '🏡',
+    icon: 'Home',
     heroDescription:
       'Grow your home service business with online booking that fills your schedule, automated review requests that build your reputation, and a customer portal that keeps homeowners coming back.',
     features: [
@@ -314,7 +314,7 @@ export const industries: Industry[] = [
     name: 'Commercial Services',
     description:
       'Field service software for commercial service providers. Multi-location management, service agreements, project tracking, and enterprise-grade reporting at a small business price.',
-    icon: '🏢',
+    icon: 'Building',
     heroDescription:
       'Win and retain commercial accounts with professional proposals, service agreement management, multi-location support, and reporting that proves your value at every contract renewal.',
     features: [
@@ -344,7 +344,7 @@ export const industries: Industry[] = [
     name: 'Residential Services',
     description:
       'Field service software built for residential service businesses. Online booking, on-my-way texts, consumer financing, and review automation to win homeowner loyalty.',
-    icon: '🏠',
+    icon: 'House',
     heroDescription:
       'Deliver the five-star experience homeowners expect with on-my-way tracking, online booking, same-day invoicing, and automated review requests that grow your reputation on Google.',
     features: [

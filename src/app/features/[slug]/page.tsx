@@ -44,7 +44,7 @@ export default async function FeatureDetailPage({ params }: PageProps) {
         title={`Why ${feature.name} Matters`}
         description="See how this feature helps field service businesses save time, earn more, and deliver better customer experiences."
         benefits={feature.benefits.map((b) => ({
-          icon: '✅',
+          icon: 'CheckCircle',
           text: `${b.title}: ${b.description}`,
         }))}
         imageAlt={`${feature.name} screenshot`}
@@ -55,7 +55,7 @@ export default async function FeatureDetailPage({ params }: PageProps) {
           title="Built for the Way You Work"
           description="Every feature in BeMyCrew is designed around real field service workflows — not generic project management."
           benefits={feature.benefits.slice(0, 3).map((b) => ({
-            icon: '🎯',
+            icon: 'Target',
             text: b.description,
           }))}
           imageAlt={`${feature.name} in action`}

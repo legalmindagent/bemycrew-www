@@ -10,33 +10,34 @@ import {
   type FeatureCategory,
 } from '@/data/features';
 import Link from 'next/link';
+import Icon from '@/components/Icon';
 
 const categoriesToShow: FeatureCategory[] = ['office', 'field', 'customer', 'ai'];
 
 const aiHighlights = [
   {
-    icon: '🤖',
+    icon: 'Brain',
     title: 'AI Dispatch',
     description:
       'ML-powered technician scoring matches the right tech to every job based on skills, location, and workload.',
     href: '/features/ai-dispatch',
   },
   {
-    icon: '💬',
+    icon: 'MessageCircle',
     title: 'AI Chatbot',
     description:
       'Claude-powered website chatbot handles customer questions, books appointments, and generates leads 24/7.',
     href: '/features/ai-chatbot',
   },
   {
-    icon: '🎙️',
+    icon: 'Mic',
     title: 'Voice AI',
     description:
       'AI phone agent answers calls, qualifies leads, and books jobs — even after hours when you can\'t pick up.',
     href: '/features/voice-ai',
   },
   {
-    icon: '📦',
+    icon: 'Package',
     title: 'AI Inventory',
     description:
       'Snap a photo of any part and AI identifies it, checks stock levels, and suggests reorder quantities.',
@@ -122,7 +123,9 @@ export default function HomePage() {
                 href={item.href}
                 className="group block p-6 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:border-blue-500/30 transition-all duration-200"
               >
-                <div className="text-3xl mb-4">{item.icon}</div>
+                <div className="mb-4">
+                  <Icon name={item.icon} className="w-8 h-8 text-blue-400" />
+                </div>
                 <h3 className="text-lg font-semibold text-white group-hover:text-blue-300 transition-colors mb-2">
                   {item.title}
                 </h3>

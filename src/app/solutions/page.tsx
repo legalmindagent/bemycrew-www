@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import Hero from '@/components/Hero';
 import CTASection from '@/components/CTASection';
+import Icon from '@/components/Icon';
 import { industries } from '@/data/industries';
 
 export const metadata: Metadata = {
@@ -39,8 +40,8 @@ export default function SolutionsPage() {
                 href={`/solutions/${industry.slug}`}
                 className="group block p-6 bg-white rounded-xl border border-slate-200 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-500/5 transition-all duration-200"
               >
-                <div className="w-14 h-14 flex items-center justify-center text-3xl bg-slate-50 group-hover:bg-blue-50 rounded-xl transition-colors mb-4">
-                  {industry.icon}
+                <div className="w-14 h-14 flex items-center justify-center bg-slate-50 group-hover:bg-blue-50 rounded-xl transition-colors mb-4">
+                  <Icon name={industry.icon} className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 group-hover:text-blue-600 transition-colors mb-2">
                   {industry.name}

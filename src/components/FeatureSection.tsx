@@ -1,3 +1,5 @@
+import Icon from './Icon';
+
 interface Benefit {
   icon: string;
   text: string;
@@ -33,8 +35,8 @@ export default function FeatureSection({
             <ul className="mt-8 space-y-4">
               {benefits.map((benefit) => (
                 <li key={benefit.text} className="flex items-start gap-3">
-                  <span className="w-8 h-8 flex items-center justify-center text-lg bg-blue-50 rounded-lg shrink-0">
-                    {benefit.icon}
+                  <span className="w-8 h-8 flex items-center justify-center bg-blue-50 rounded-lg shrink-0">
+                    <Icon name={benefit.icon} className="w-5 h-5 text-blue-600" />
                   </span>
                   <span className="text-slate-700 pt-1">{benefit.text}</span>
                 </li>

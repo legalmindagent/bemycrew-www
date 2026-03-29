@@ -2,38 +2,38 @@ import Link from 'next/link';
 
 const footerLinks = {
   Product: [
-    { label: 'Scheduling & Dispatch', href: '/features/scheduling' },
-    { label: 'Estimates & Invoicing', href: '/features/estimates-invoicing' },
-    { label: 'CRM & Customers', href: '/features/crm' },
-    { label: 'AI Engines', href: '/features/ai' },
-    { label: 'Mobile App', href: '/features/mobile' },
-    { label: 'Reporting', href: '/features/reporting' },
-    { label: 'Fleet Tracking', href: '/features/fleet-tracking' },
-    { label: 'Inventory', href: '/features/inventory' },
+    { label: 'Scheduling & Dispatch', href: '/features/scheduling-and-dispatching' },
+    { label: 'Estimates & Invoicing', href: '/features/estimates-and-invoicing' },
+    { label: 'CRM & Customers', href: '/features/customer-management' },
+    { label: 'AI Engines', href: '/features/ai-dispatch' },
+    { label: 'Mobile App', href: '/features/mobile-app' },
+    { label: 'Reporting', href: '/features/advanced-reporting' },
+    { label: 'Fleet Tracking', href: '/features/route-optimization' },
+    { label: 'Inventory', href: '/features/ai-inventory' },
   ],
   Solutions: [
     { label: 'HVAC', href: '/solutions/hvac' },
     { label: 'Plumbing', href: '/solutions/plumbing' },
     { label: 'Electrical', href: '/solutions/electrical' },
-    { label: 'Landscaping', href: '/solutions/landscaping' },
-    { label: 'Cleaning Services', href: '/solutions/cleaning' },
-    { label: 'Pest Control', href: '/solutions/pest-control' },
-    { label: 'General Contracting', href: '/solutions/general-contracting' },
+    { label: 'Landscaping', href: '/solutions/home-services' },
+    { label: 'Cleaning Services', href: '/solutions/residential' },
+    { label: 'Pest Control', href: '/solutions/commercial' },
+    { label: 'General Contracting', href: '/solutions/contractors' },
   ],
   Company: [
     { label: 'About Us', href: '/about' },
     { label: 'Careers', href: '/careers' },
     { label: 'Contact', href: '/contact' },
-    { label: 'Partners', href: '/partners' },
-    { label: 'Press', href: '/press' },
+    { label: 'Partners', href: '/about' },
+    { label: 'Press', href: '/about' },
   ],
   Resources: [
     { label: 'Blog', href: '/blog' },
-    { label: 'Help Center', href: '/help' },
-    { label: 'API Docs', href: '/docs/api' },
-    { label: 'Webinars', href: '/resources/webinars' },
-    { label: 'Case Studies', href: '/resources/case-studies' },
-    { label: 'ROI Calculator', href: '/resources/roi-calculator' },
+    { label: 'Help Center', href: '/resources' },
+    { label: 'API Docs', href: '/resources' },
+    { label: 'Webinars', href: '/blog' },
+    { label: 'Case Studies', href: '/blog' },
+    { label: 'ROI Calculator', href: '/pricing' },
   ],
 };
 
@@ -103,7 +103,7 @@ export default function Footer() {
           <div className="flex gap-6 text-sm text-slate-500">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
-            <Link href="/security" className="hover:text-white transition-colors">Security</Link>
+            <Link href="/privacy" className="hover:text-white transition-colors">Security</Link>
           </div>
         </div>
       </div>

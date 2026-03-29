@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import CTASection from '@/components/CTASection';
+import Icon from '@/components/Icon';
 
 export const metadata: Metadata = {
   title: 'About — BeMyCrew',
@@ -9,25 +10,25 @@ export const metadata: Metadata = {
 
 const values = [
   {
-    icon: '🤖',
+    icon: 'Brain',
     title: 'AI-First',
     description:
       'We build AI into everything — not as an add-on. From dispatch optimization to voice answering, our four AI engines work behind the scenes so you can focus on your craft.',
   },
   {
-    icon: '💰',
+    icon: 'DollarSign',
     title: 'Affordable for Everyone',
     description:
       'Enterprise tools at small business prices. Flat monthly pricing with no per-technician fees means you can grow your team without watching your software bill grow faster.',
   },
   {
-    icon: '🔧',
+    icon: 'Wrench',
     title: 'Complete Platform',
     description:
       'One login for scheduling, dispatch, estimates, invoicing, CRM, payments, and more. No duct-taping five different tools together and hoping they sync.',
   },
   {
-    icon: '📱',
+    icon: 'Smartphone',
     title: 'Built for the Field',
     description:
       'Our PWA works on any device, online or offline. Technicians get the tools they need without downloading a massive app or burning through data.',
@@ -110,7 +111,9 @@ export default function AboutPage() {
                 key={value.title}
                 className="bg-white rounded-xl border border-slate-200 p-8 text-center"
               >
-                <div className="text-3xl mb-4">{value.icon}</div>
+                <div className="mb-4">
+                  <Icon name={value.icon} className="w-8 h-8 text-blue-600" />
+                </div>
                 <h3 className="text-lg font-semibold text-slate-900 mb-3">
                   {value.title}
                 </h3>

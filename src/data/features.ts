@@ -29,7 +29,7 @@ export const features: Feature[] = [
     shortDescription: 'AI-powered scheduling with smart technician matching.',
     longDescription:
       'Stop spending hours on the phone juggling schedules. BeMyCrew uses AI to match the right technician to every job based on skills, location, availability, and customer history. Drag-and-drop calendar views, recurring appointments, and real-time schedule updates keep your entire team in sync.',
-    icon: '📅',
+    icon: 'CalendarClock',
     category: 'office',
     benefits: [
       {
@@ -82,7 +82,7 @@ export const features: Feature[] = [
     shortDescription: 'Complete job lifecycle management from creation to close-out.',
     longDescription:
       'Track every job from the first customer call to final payment. Work orders capture all the details your team needs — scope of work, parts, labor, photos, notes, and signatures — in one organized record. Custom statuses let you mirror your real workflow, so nothing slips through the cracks.',
-    icon: '📋',
+    icon: 'ClipboardList',
     category: 'office',
     benefits: [
       {
@@ -130,7 +130,7 @@ export const features: Feature[] = [
     shortDescription: 'Milestones, tasks, and budget tracking for larger jobs.',
     longDescription:
       'Not every job is a one-visit fix. BeMyCrew project management lets you break complex installations and renovations into milestones and tasks, assign them across your team, and track budgets in real time. Keep big projects profitable and on schedule without spreadsheets.',
-    icon: '🏗️',
+    icon: 'FolderKanban',
     category: 'office',
     benefits: [
       {
@@ -173,7 +173,7 @@ export const features: Feature[] = [
     shortDescription: '6 report templates, 8 KPIs, and CSV export.',
     longDescription:
       'Make data-driven decisions with built-in reporting that tracks the metrics that matter most to field service businesses. Monitor revenue, job completion rates, technician utilization, average ticket value, and more. Export to CSV for deeper analysis or share reports with your team.',
-    icon: '📊',
+    icon: 'BarChart3',
     category: 'office',
     benefits: [
       {
@@ -216,7 +216,7 @@ export const features: Feature[] = [
     shortDescription: 'Manage multiple office locations with per-location settings.',
     longDescription:
       'Running more than one location should not mean running more than one software system. BeMyCrew supports multiple locations under a single account with per-location settings for service areas, pricing, tax rates, and team assignments. Roll-up reporting gives you the big picture while location-level views keep managers focused.',
-    icon: '🏢',
+    icon: 'MapPin',
     category: 'office',
     benefits: [
       {
@@ -259,7 +259,7 @@ export const features: Feature[] = [
     shortDescription: 'Build custom status flows per job type.',
     longDescription:
       'Every trade works differently. A plumbing repair has different steps than an HVAC install. Custom workflows let you define the exact status progression for each job type — from initial request through completion and follow-up. Automate transitions, require approvals, and trigger notifications at every stage.',
-    icon: '⚙️',
+    icon: 'Workflow',
     category: 'office',
     benefits: [
       {
@@ -304,7 +304,7 @@ export const features: Feature[] = [
     shortDescription: 'Google Maps powered route optimization for field teams.',
     longDescription:
       'Every mile your technician drives is a mile they are not billing. BeMyCrew integrates with Google Maps to calculate the fastest routes between jobs, minimize windshield time, and maximize the number of jobs your team can complete each day. Real-time traffic data keeps routes accurate throughout the day.',
-    icon: '🗺️',
+    icon: 'Route',
     category: 'field',
     benefits: [
       {
@@ -347,7 +347,7 @@ export const features: Feature[] = [
     shortDescription: 'PWA with offline support — no app store needed.',
     longDescription:
       'Your technicians need their tools to work everywhere — including basements, attics, and rural areas with no signal. BeMyCrew is a Progressive Web App that installs instantly from the browser, works offline, and syncs automatically when connectivity returns. No app store downloads, no update delays, no compatibility issues.',
-    icon: '📱',
+    icon: 'Smartphone',
     category: 'field',
     benefits: [
       {
@@ -395,7 +395,7 @@ export const features: Feature[] = [
     shortDescription: 'Before, during, and after job photos.',
     longDescription:
       'A picture is worth a thousand words — and in field service, it can be worth thousands of dollars in avoided disputes. BeMyCrew makes it easy for technicians to capture timestamped, geotagged photos at every stage of a job. Photos attach directly to the work order for a complete visual record.',
-    icon: '📸',
+    icon: 'Camera',
     category: 'field',
     benefits: [
       {
@@ -438,7 +438,7 @@ export const features: Feature[] = [
     shortDescription: 'Camera-based barcode and inventory scanning.',
     longDescription:
       'Stop typing part numbers by hand. BeMyCrew uses your phone camera to scan barcodes and QR codes instantly, pulling up part details, pricing, and inventory levels. Speed up parts logging on work orders and keep your inventory counts accurate without expensive handheld scanners.',
-    icon: '🔍',
+    icon: 'ScanBarcode',
     category: 'field',
     benefits: [
       {
@@ -481,7 +481,7 @@ export const features: Feature[] = [
     shortDescription: 'On-site electronic signature capture.',
     longDescription:
       'Close out jobs on the spot with legally binding electronic signatures captured right on the technician\'s phone or tablet. Customers sign with their finger, and the signature is permanently attached to the work order. No more chasing paper, scanning forms, or losing sign-off sheets.',
-    icon: '✍️',
+    icon: 'PenTool',
     category: 'field',
     benefits: [
       {
@@ -524,7 +524,7 @@ export const features: Feature[] = [
     shortDescription: 'Drag-and-drop form builder with 10 field types.',
     longDescription:
       'Every trade has unique inspection checklists, safety forms, and documentation requirements. BeMyCrew\'s form builder lets you create custom forms with 10 field types — text, number, date, dropdown, checkbox, radio, photo, signature, toggle, and paragraph. Attach forms to job types so technicians always fill out the right paperwork.',
-    icon: '📝',
+    icon: 'FileText',
     category: 'field',
     benefits: [
       {
@@ -569,7 +569,7 @@ export const features: Feature[] = [
     shortDescription: 'Good/Better/Best proposals with pricebook and one-click invoicing.',
     longDescription:
       'Win more jobs and get paid faster. Create professional Good/Better/Best proposals that let customers choose the option that fits their budget — proven to increase average ticket value by 20-30%. Convert approved estimates to invoices in one click, and collect payment on site or online through Stripe.',
-    icon: '💰',
+    icon: 'Receipt',
     category: 'customer',
     benefits: [
       {
@@ -622,7 +622,7 @@ export const features: Feature[] = [
     shortDescription: 'Full CRM built for field service businesses.',
     longDescription:
       'Know your customers inside and out. BeMyCrew CRM stores complete contact information, property details, equipment records, service history, communication logs, and payment history in one place. When a customer calls, your team has everything they need to deliver exceptional service — before the tech even arrives.',
-    icon: '👥',
+    icon: 'Users',
     category: 'customer',
     benefits: [
       {
@@ -665,7 +665,7 @@ export const features: Feature[] = [
     shortDescription: 'Self-service portal for job history, invoices, and service requests.',
     longDescription:
       'Give your customers the self-service experience they expect from modern businesses. The BeMyCrew customer portal lets your customers view their complete job history, download invoices, pay outstanding balances, request new service, and track upcoming appointments — all without calling your office.',
-    icon: '🌐',
+    icon: 'LayoutDashboard',
     category: 'customer',
     benefits: [
       {
@@ -708,7 +708,7 @@ export const features: Feature[] = [
     shortDescription: 'Public online booking widget for your website.',
     longDescription:
       'Let customers book service directly from your website, 24 hours a day. The BeMyCrew booking portal embeds on your site and shows available appointment slots based on your real-time schedule. Customers select a service, pick a time, and the job appears on your dispatch board automatically — no phone call required.',
-    icon: '🗓️',
+    icon: 'CalendarPlus',
     category: 'customer',
     benefits: [
       {
@@ -751,7 +751,7 @@ export const features: Feature[] = [
     shortDescription: 'Real-time SMS conversations with customers.',
     longDescription:
       'Meet your customers where they are — on their phones. BeMyCrew two-way SMS lets your office and field team send and receive text messages with customers directly from the platform. Appointment confirmations, schedule updates, follow-ups, and quick questions all happen via text, with a full conversation history saved to the customer record.',
-    icon: '💬',
+    icon: 'MessageSquare',
     category: 'customer',
     benefits: [
       {
@@ -794,7 +794,7 @@ export const features: Feature[] = [
     shortDescription: 'Automatic "On My Way" texts with live tracking link.',
     longDescription:
       'Customers hate wondering when the technician will show up. BeMyCrew sends an automatic text when your tech is en route, including a live GPS tracking link so the customer can watch them approach in real time. It is the same experience customers expect from Uber and DoorDash — now for your field service business.',
-    icon: '🚗',
+    icon: 'Navigation',
     category: 'customer',
     benefits: [
       {
@@ -837,7 +837,7 @@ export const features: Feature[] = [
     shortDescription: 'Stripe-powered on-site and online payment collection.',
     longDescription:
       'Get paid the same day the work is done. BeMyCrew integrates with Stripe to let you collect credit card payments on site, send payment links via text or email, and accept payments through the customer portal. No more chasing checks or waiting 30 days for receivables.',
-    icon: '💳',
+    icon: 'CreditCard',
     category: 'customer',
     benefits: [
       {
@@ -880,7 +880,7 @@ export const features: Feature[] = [
     shortDescription: 'Recurring contracts and maintenance plans.',
     longDescription:
       'Predictable recurring revenue is the foundation of a profitable field service business. BeMyCrew service agreements let you create maintenance plans and recurring contracts with automated scheduling, billing, and renewals. Build a base of committed customers who pay monthly or annually for ongoing service.',
-    icon: '📄',
+    icon: 'FileCheck',
     category: 'customer',
     benefits: [
       {
@@ -923,7 +923,7 @@ export const features: Feature[] = [
     shortDescription: '3, 6, and 12-month payment plans for customers.',
     longDescription:
       'Big-ticket jobs should not mean big objections. Offer your customers 3, 6, or 12-month payment plans right from the estimate so price never kills a sale. You get paid in full upfront while the customer pays over time. It is the same "buy now, pay later" experience that is driving sales across every industry.',
-    icon: '🏦',
+    icon: 'Wallet',
     category: 'customer',
     benefits: [
       {
@@ -966,7 +966,7 @@ export const features: Feature[] = [
     shortDescription: 'Automated review requests via SMS and email.',
     longDescription:
       'Five-star reviews are the lifeblood of local service businesses, but asking for them is awkward and easy to forget. BeMyCrew automates the entire process — sending a review request via text and email at the perfect moment after a completed job. Customers tap a link and leave a review on Google, Yelp, or your platform of choice.',
-    icon: '⭐',
+    icon: 'Star',
     category: 'customer',
     benefits: [
       {
@@ -1011,7 +1011,7 @@ export const features: Feature[] = [
     shortDescription: 'AI-powered dispatch with technician scoring and machine learning.',
     longDescription:
       'BeMyCrew AI Dispatch goes beyond simple scheduling. Our machine learning model scores every available technician for every job based on skill match, location, historical performance, customer relationship, and workload balance. The system learns from outcomes — when a tech nails a job, the model updates. Over time, your dispatch decisions get smarter automatically.',
-    icon: '🤖',
+    icon: 'Brain',
     category: 'ai',
     benefits: [
       {
@@ -1059,7 +1059,7 @@ export const features: Feature[] = [
     shortDescription: 'Claude-powered website chatbot that auto-books services.',
     longDescription:
       'Turn website visitors into booked jobs around the clock. The BeMyCrew AI Chatbot — powered by Claude — lives on your website and engages visitors in natural conversation. It answers service questions, provides pricing estimates, qualifies leads, and books appointments directly onto your schedule. It is like having a knowledgeable CSR available 24/7.',
-    icon: '💬',
+    icon: 'Bot',
     category: 'ai',
     benefits: [
       {
@@ -1102,7 +1102,7 @@ export const features: Feature[] = [
     shortDescription: 'Voice AI call handling for 24/7 phone coverage.',
     longDescription:
       'Never miss another call. BeMyCrew Voice AI answers your phones when your team cannot — after hours, during peak volume, or on weekends. The AI handles calls naturally, qualifying the caller, gathering job details, and booking appointments. Customers speak to what sounds like a helpful, professional receptionist — not a frustrating phone tree.',
-    icon: '🎙️',
+    icon: 'Mic',
     category: 'ai',
     benefits: [
       {
@@ -1145,7 +1145,7 @@ export const features: Feature[] = [
     shortDescription: 'AI inventory identification via photo using Claude Vision.',
     longDescription:
       'Not sure what part you are looking at? Snap a photo and let AI tell you. BeMyCrew AI Inventory uses Claude Vision to identify parts, equipment, and components from a photo. Point your camera at a compressor, circuit breaker, or valve, and the AI returns the make, model, and compatible replacement parts — saving time and reducing ordering errors.',
-    icon: '📦',
+    icon: 'ScanSearch',
     category: 'ai',
     benefits: [
       {
@@ -1188,7 +1188,7 @@ export const features: Feature[] = [
     shortDescription: 'Built-in VoIP phone system powered by Twilio.',
     longDescription:
       'Ditch your expensive phone provider. BeMyCrew includes a full VoIP phone system built on Twilio — the same platform used by Uber, Airbnb, and Lyft. Get local and toll-free numbers, call recording, automatic call logging to customer records, and seamless integration with every other BeMyCrew feature.',
-    icon: '📞',
+    icon: 'Phone',
     category: 'customer',
     benefits: [
       {
