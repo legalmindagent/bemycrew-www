@@ -124,6 +124,10 @@ export const mainNavigation: NavItem[] = [
     },
   },
   {
+    label: 'Voice AI — $25/mo',
+    href: '/voice-ai',
+  },
+  {
     label: 'Pricing',
     href: '/pricing',
   },
@@ -136,6 +140,7 @@ export const footerNavigation = {
       { label: 'All Features', href: '/features' },
       { label: 'AI Capabilities', href: '/features#ai' },
       { label: 'Mobile App', href: '/features/mobile-app' },
+      { label: 'Voice AI Agent', href: '/voice-ai' },
       { label: 'Pricing', href: '/pricing' },
       { label: "What's New", href: '/changelog' },
     ],

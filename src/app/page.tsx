@@ -58,6 +58,40 @@ export default function HomePage() {
 
       <StatsSection />
 
+      {/* Voice AI Standalone Callout */}
+      <section className="py-16 sm:py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-sm font-medium text-orange-300 bg-orange-500/10 border border-orange-500/20 rounded-full">
+            <Icon name="Phone" className="w-4 h-4" />
+            Standalone Product
+          </div>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
+            Just need a phone agent? Start at $25/mo
+          </h2>
+          <p className="mt-4 text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
+            Not ready for the full platform? Our AI phone agent answers your calls 24/7, captures leads, and sends you notifications — for just $25/month. No commitment. Upgrade anytime.
+          </p>
+          <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              href="/voice-ai"
+              className="inline-flex items-center gap-2 px-8 py-3.5 text-base font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition-colors shadow-lg shadow-orange-500/25"
+            >
+              <Icon name="Mic" className="w-5 h-5" />
+              Learn More
+            </Link>
+            <Link
+              href="/pricing"
+              className="inline-flex items-center gap-2 px-8 py-3.5 text-base font-medium text-slate-300 hover:text-white border border-slate-600 hover:border-slate-500 rounded-lg transition-colors"
+            >
+              See All Plans
+            </Link>
+          </div>
+          <p className="mt-4 text-xs text-slate-500">
+            Limitations apply. Includes 100 minutes/mo. Additional minutes billed at usage rates.
+          </p>
+        </div>
+      </section>
+
       {/* Features by Category */}
       <section className="py-16 sm:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

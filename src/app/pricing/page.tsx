@@ -13,6 +13,24 @@ export const metadata: Metadata = {
 
 const plans = [
   {
+    name: 'Voice',
+    price: '$25',
+    period: 'mo',
+    description: 'AI phone agent that never misses a call.',
+    features: [
+      'AI phone agent (24/7)',
+      'Call transcription & summaries',
+      'Lead capture & qualification',
+      'SMS notifications for every call',
+      'Basic call dashboard',
+      'Forward urgent calls to your cell',
+      'Up to 100 calls/month*',
+    ],
+    highlighted: false,
+    ctaText: 'Start Free Trial',
+    ctaHref: '/signup?plan=voice',
+  },
+  {
     name: 'Starter',
     price: '$99',
     period: 'mo',
@@ -118,7 +136,7 @@ export default function PricingPage() {
     <>
       <Hero
         title="Simple, Transparent Pricing"
-        subtitle="Flat monthly rate. No per-technician fees. No surprises."
+        subtitle="Flat monthly rate starting at $25/mo. No per-technician fees. No surprises."
         primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
         secondaryCTA={{ text: 'Book a Demo', href: '/demo' }}
       />
@@ -126,11 +144,14 @@ export default function PricingPage() {
       {/* Pricing Cards */}
       <section className="py-16 sm:py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {plans.map((plan) => (
               <PricingCard key={plan.name} {...plan} />
             ))}
           </div>
+          <p className="text-sm text-slate-500 text-center mt-8">
+            * Limitations apply. Voice plan includes up to 100 inbound calls per month. Additional calls billed at $0.25/call. All plans subject to fair use policy.
+          </p>
         </div>
       </section>
 

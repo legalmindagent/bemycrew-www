@@ -10,6 +10,7 @@ const footerLinks = {
     { label: 'Reporting', href: '/features/advanced-reporting' },
     { label: 'Fleet Tracking', href: '/features/route-optimization' },
     { label: 'Inventory', href: '/features/ai-inventory' },
+    { label: 'Voice AI Agent', href: '/voice-ai' },
   ],
   Solutions: [
     { label: 'HVAC', href: '/solutions/hvac' },

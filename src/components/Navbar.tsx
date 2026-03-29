@@ -55,9 +55,16 @@ export default function Navbar() {
               >
                 <Link
                   href={item.href || '#'}
-                  className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-slate-700 hover:text-blue-600 rounded-md transition-colors"
+                  className={`flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-colors ${
+                    item.label === 'Voice AI — $25/mo'
+                      ? 'text-blue-600 hover:text-blue-700 font-semibold'
+                      : 'text-slate-700 hover:text-blue-600'
+                  }`}
                 >
                   {item.label}
+                  {item.label === 'Voice AI — $25/mo' && (
+                    <span className="ml-1 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide bg-orange-500 text-white rounded">New</span>
+                  )}
                   {hasDropdown(item) && (
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -138,10 +145,17 @@ export default function Navbar() {
                 {item.href ? (
                   <Link
                     href={item.href}
-                    className="block px-3 py-2 text-base font-medium text-slate-900 hover:bg-slate-50 rounded-md"
+                    className={`block px-3 py-2 text-base font-medium rounded-md ${
+                      item.label === 'Voice AI — $25/mo'
+                        ? 'text-blue-600 font-semibold hover:bg-blue-50'
+                        : 'text-slate-900 hover:bg-slate-50'
+                    }`}
                     onClick={() => setMobileOpen(false)}
                   >
                     {item.label}
+                    {item.label === 'Voice AI — $25/mo' && (
+                      <span className="ml-2 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide bg-orange-500 text-white rounded">New</span>
+                    )}
                   </Link>
                 ) : (
                   <div className="px-3 py-2 text-base font-medium text-slate-900">
