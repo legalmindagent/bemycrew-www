@@ -7,6 +7,7 @@ import {
   ShieldCheck, HardHat, Home, Building, House,
   MessageCircle, Package, HelpCircle, GraduationCap, ArrowLeftRight,
   Factory, DollarSign, CheckCircle, Target, Lock, Mail,
+  WifiOff, Layers, Clock, MapPinned,
   type LucideProps
 } from 'lucide-react';
 
@@ -19,6 +20,7 @@ const iconMap: Record<string, React.ComponentType<LucideProps>> = {
   ShieldCheck, HardHat, Home, Building, House,
   MessageCircle, Package, HelpCircle, GraduationCap, ArrowLeftRight,
   Factory, DollarSign, CheckCircle, Target, Lock, Mail,
+  WifiOff, Layers, Clock, MapPinned,
 };
 
 interface IconProps extends LucideProps {

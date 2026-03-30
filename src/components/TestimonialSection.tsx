@@ -1,72 +1,83 @@
-const testimonials = [
+import Icon from './Icon';
+
+const proofCards = [
   {
-    quote:
-      "BeMyCrew cut our scheduling time in half. We went from sticky notes and phone calls to a fully digital dispatch board in one weekend. My techs love the mobile app.",
-    name: "Marcus Johnson",
-    role: "Owner",
-    company: "Johnson HVAC Services",
+    icon: 'Brain',
+    headline: '4 AI Engines Included',
+    description:
+      'The only field service platform with AI dispatch, voice AI, chatbot, and inventory AI \u2014 all included in Professional and Enterprise plans.',
   },
   {
-    quote:
-      "The AI-powered estimates are a game changer. I used to spend 2 hours every evening writing up quotes. Now it takes minutes and my close rate went up 30%.",
-    name: "Sarah Chen",
-    role: "Operations Manager",
-    company: "Bright Spark Electrical",
+    icon: 'DollarSign',
+    headline: 'Flat-Rate Pricing',
+    description:
+      'No per-technician fees. Know exactly what you\u2019ll pay every month. Start at $25/mo for Voice AI or $99/mo for the full platform.',
   },
   {
-    quote:
-      "We switched from FieldPulse because we needed offline support and better pricing. BeMyCrew delivers both, plus features we didn't even know we needed.",
-    name: "David Ramirez",
-    role: "Founder",
-    company: "Ramirez Plumbing Co.",
+    icon: 'Layers',
+    headline: '30+ Features, One Platform',
+    description:
+      'Scheduling, dispatch, invoicing, GPS tracking, time clock, inventory, custom forms, and more \u2014 everything you need without the enterprise price tag.',
   },
+];
+
+const businessTypes = [
+  { icon: 'Users', label: 'Solo Operators' },
+  { icon: 'HardHat', label: 'Small Crews' },
+  { icon: 'Building2', label: 'Growing Companies' },
+  { icon: 'MapPin', label: 'Multi-Location Teams' },
 ];
 
 export default function TestimonialSection() {
   return (
     <section className="bg-slate-50 py-16 sm:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Value Props */}
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-slate-900">
-            Trusted by Field Service Pros
+            Why Service Businesses Choose BeMyCrew
           </h2>
           <p className="mt-3 text-lg text-slate-600">
-            See why small business owners are switching to BeMyCrew.
+            Real capabilities, honest pricing, no gimmicks.
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {testimonials.map((t) => (
+          {proofCards.map((card) => (
             <div
-              key={t.name}
-              className="bg-white rounded-xl p-8 border border-slate-200 shadow-sm flex flex-col"
+              key={card.headline}
+              className="bg-white rounded-xl p-8 border border-slate-200 shadow-sm flex flex-col items-center text-center transition-shadow hover:shadow-md"
             >
-              {/* Stars */}
-              <div className="flex gap-1 mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <svg
-                    key={i}
-                    className="w-5 h-5 text-orange-400"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ))}
+              <div className="mb-5 flex items-center justify-center w-14 h-14 rounded-full bg-blue-50">
+                <Icon name={card.icon} className="w-7 h-7 text-blue-600" />
               </div>
-
-              <blockquote className="text-slate-700 text-sm leading-relaxed flex-1">
-                &ldquo;{t.quote}&rdquo;
-              </blockquote>
-
-              <div className="mt-6 pt-6 border-t border-slate-100">
-                <div className="font-semibold text-slate-900 text-sm">{t.name}</div>
-                <div className="text-slate-500 text-sm">
-                  {t.role}, {t.company}
-                </div>
-              </div>
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                {card.headline}
+              </h3>
+              <p className="text-slate-600 text-sm leading-relaxed">
+                {card.description}
+              </p>
             </div>
           ))}
+        </div>
+
+        {/* Trusted By */}
+        <div className="mt-16 text-center">
+          <p className="text-sm font-medium uppercase tracking-wider text-slate-400 mb-8">
+            Built for service businesses of every size
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-2xl mx-auto">
+            {businessTypes.map((bt) => (
+              <div key={bt.label} className="flex flex-col items-center gap-2">
+                <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-white border border-slate-200">
+                  <Icon name={bt.icon} className="w-6 h-6 text-slate-500" />
+                </div>
+                <span className="text-sm font-medium text-slate-600">
+                  {bt.label}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

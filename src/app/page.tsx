@@ -3,6 +3,9 @@ import StatsSection from '@/components/StatsSection';
 import FeatureCard from '@/components/FeatureCard';
 import TestimonialSection from '@/components/TestimonialSection';
 import CTASection from '@/components/CTASection';
+import DashboardMockup from '@/components/mockups/DashboardMockup';
+import MobileMockup from '@/components/mockups/MobileMockup';
+import ScheduleMockup from '@/components/mockups/ScheduleMockup';
 import {
   featuresByCategory,
   categoryLabels,
@@ -54,7 +57,13 @@ export default function HomePage() {
         subtitle="AI-powered field service management that's affordable for every small business. From voice AI to complete enterprise systems."
         primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
         secondaryCTA={{ text: 'Book a Demo', href: '/demo' }}
-      />
+      >
+        <div className="relative" style={{ perspective: '1000px' }}>
+          <div style={{ transform: 'rotateY(-5deg) rotateX(2deg)' }} className="shadow-2xl shadow-blue-500/20 rounded-xl overflow-hidden border border-white/10">
+            <DashboardMockup />
+          </div>
+        </div>
+      </Hero>
 
       <StatsSection />
 
@@ -130,6 +139,36 @@ export default function HomePage() {
               </div>
             );
           })}
+        </div>
+      </section>
+
+      {/* See It In Action */}
+      <section className="py-16 sm:py-24 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">See It In Action</h2>
+            <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">A complete platform that works on desktop and mobile — even offline.</p>
+          </div>
+          <div className="grid lg:grid-cols-3 gap-8 items-start">
+            <div className="space-y-4">
+              <div className="rounded-xl overflow-hidden shadow-lg border border-slate-200">
+                <ScheduleMockup />
+              </div>
+              <p className="text-center text-sm font-medium text-slate-700">Drag-and-Drop Scheduling</p>
+            </div>
+            <div className="space-y-4 lg:-mt-8">
+              <div className="rounded-xl overflow-hidden shadow-lg border border-slate-200">
+                <DashboardMockup />
+              </div>
+              <p className="text-center text-sm font-medium text-slate-700">Dispatch Dashboard</p>
+            </div>
+            <div className="space-y-4 flex flex-col items-center">
+              <div className="w-48 sm:w-56">
+                <MobileMockup />
+              </div>
+              <p className="text-center text-sm font-medium text-slate-700">Technician Mobile App</p>
+            </div>
+          </div>
         </div>
       </section>
 
