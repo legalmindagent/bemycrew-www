@@ -6,7 +6,7 @@ import FeatureCard from '@/components/FeatureCard';
 import FAQSection from '@/components/FAQSection';
 import CTASection from '@/components/CTASection';
 import Icon from '@/components/Icon';
-import { features, getFeatureBySlug, Feature, FeatureCategory } from '@/data/features';
+import { features, getFeatureBySlug, Feature } from '@/data/features';
 import { ReactNode } from 'react';
 
 import DashboardMockup from '@/components/mockups/DashboardMockup';

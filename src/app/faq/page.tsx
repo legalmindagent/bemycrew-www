@@ -18,7 +18,7 @@ const faqs = [
   {
     question: 'How much does BeMyCrew cost?',
     answer:
-      'BeMyCrew starts at $59/month for our Starter plan, which includes all the core features most small businesses need. We also offer Professional and Enterprise plans with additional features like AI dispatch, VoIP phone systems, and advanced reporting. Visit our pricing page for full details.',
+      'BeMyCrew starts at $99/month for our Starter plan, which includes all the core features most small businesses need. We also offer Professional and Enterprise plans with additional features like AI dispatch, VoIP phone systems, and advanced reporting. Visit our pricing page for full details.',
   },
   {
     question: 'Is there a free trial?',

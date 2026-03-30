@@ -73,7 +73,7 @@ export default function Navbar() {
                 </Link>
 
                 {item.dropdown && openDropdown === item.label && (
-                  <div className="absolute top-full left-0 mt-1 bg-white rounded-xl shadow-lg border border-slate-200 py-4 px-4 min-w-[480px]">
+                  <div className="absolute top-full left-0 mt-1 bg-white rounded-xl shadow-lg border border-slate-200 py-4 px-4 min-w-[min(480px,90vw)]">
                     <div className="grid grid-cols-2 gap-4">
                       {item.dropdown.groups.map((group) => (
                         <div key={group.label}>
