@@ -59,7 +59,7 @@ export default function HomePage() {
         secondaryCTA={{ text: 'Book a Demo', href: '/demo' }}
       >
         <div className="relative" style={{ perspective: '1000px' }}>
-          <div style={{ transform: 'rotateY(-5deg) rotateX(2deg)' }} className="shadow-2xl shadow-blue-500/20 rounded-xl overflow-hidden border border-white/10">
+          <div className="lg:[transform:rotateY(-5deg)_rotateX(2deg)] shadow-2xl shadow-blue-500/20 rounded-xl overflow-hidden border border-white/10">
             <DashboardMockup />
           </div>
         </div>

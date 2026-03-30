@@ -30,6 +30,7 @@ export default function FAQSection({ faqs }: FAQSectionProps) {
               <button
                 onClick={() => setOpenIndex(isOpen ? null : index)}
                 className="w-full flex items-center justify-between px-6 py-4 text-left bg-white hover:bg-slate-50 transition-colors"
+                aria-expanded={isOpen}
               >
                 <span className="text-base font-medium text-slate-900 pr-4">
                   {faq.question}

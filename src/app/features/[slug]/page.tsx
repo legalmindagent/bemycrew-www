@@ -134,7 +134,7 @@ export default async function FeatureDetailPage({ params }: PageProps) {
       <Hero
         title={feature.name}
         subtitle={feature.longDescription}
-        badge={feature.icon + ' Feature'}
+        badge="Feature"
         primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
         secondaryCTA={{ text: 'View All Features', href: '/features' }}
       >
@@ -142,8 +142,8 @@ export default async function FeatureDetailPage({ params }: PageProps) {
       </Hero>
 
       {/* ─── Quick Benefits Bar ────────────────────────────────────── */}
-      <section className="relative z-10 -mt-6">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative z-10 -mt-6 lg:-mt-8">
+        <div className="max-w-5xl mx-4 sm:mx-6 lg:mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-200/50 p-6 sm:p-8">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
               {quickBenefits.map((qb) => (

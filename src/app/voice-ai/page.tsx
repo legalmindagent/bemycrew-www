@@ -201,7 +201,7 @@ export default function VoiceAIPage() {
             {features.map((feature) => (
               <div
                 key={feature.title}
-                className="flex flex-col items-center text-center p-6 bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
+                className="flex flex-col items-center text-center p-4 sm:p-6 bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
               >
                 <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-4">
                   <Icon name={feature.icon} className="w-6 h-6" />

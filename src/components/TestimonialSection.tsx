@@ -6,18 +6,21 @@ const proofCards = [
     headline: '4 AI Engines Included',
     description:
       'The only field service platform with AI dispatch, voice AI, chatbot, and inventory AI \u2014 all included in Professional and Enterprise plans.',
+    borderColor: 'border-t-blue-500',
   },
   {
     icon: 'DollarSign',
     headline: 'Flat-Rate Pricing',
     description:
       'No per-technician fees. Know exactly what you\u2019ll pay every month. Start at $25/mo for Voice AI or $99/mo for the full platform.',
+    borderColor: 'border-t-orange-500',
   },
   {
     icon: 'Layers',
     headline: '30+ Features, One Platform',
     description:
       'Scheduling, dispatch, invoicing, GPS tracking, time clock, inventory, custom forms, and more \u2014 everything you need without the enterprise price tag.',
+    borderColor: 'border-t-emerald-500',
   },
 ];
 
@@ -46,7 +49,7 @@ export default function TestimonialSection() {
           {proofCards.map((card) => (
             <div
               key={card.headline}
-              className="bg-white rounded-xl p-8 border border-slate-200 shadow-sm flex flex-col items-center text-center transition-shadow hover:shadow-md"
+              className={`bg-white rounded-xl p-8 border border-slate-200 border-t-4 ${card.borderColor} shadow-sm flex flex-col items-center text-center transition-shadow hover:shadow-md`}
             >
               <div className="mb-5 flex items-center justify-center w-14 h-14 rounded-full bg-blue-50">
                 <Icon name={card.icon} className="w-7 h-7 text-blue-600" />

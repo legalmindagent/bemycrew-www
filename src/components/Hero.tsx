@@ -28,7 +28,7 @@ export default function Hero({ title, subtitle, primaryCTA, secondaryCTA, badge,
       <div className={`relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${hasMockup ? 'py-16 sm:py-20 lg:py-24' : 'py-24 sm:py-32 lg:py-40'}`}>
         <div className={hasMockup ? 'flex flex-col lg:flex-row items-center gap-12 lg:gap-16' : ''}>
           {/* Text content */}
-          <div className={hasMockup ? 'flex-1 text-center lg:text-left' : 'max-w-3xl mx-auto text-center'}>
+          <div className={`${hasMockup ? 'flex-1 text-center lg:text-left' : 'max-w-3xl mx-auto text-center'} animate-[fadeInUp_0.6s_ease-out_both]`}>
             {badge && (
               <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-sm font-medium text-blue-300 bg-blue-500/10 border border-blue-500/20 rounded-full">
                 <span className="w-1.5 h-1.5 bg-blue-400 rounded-full animate-pulse" />

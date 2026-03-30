@@ -122,6 +122,7 @@ export default function Navbar() {
             onClick={() => setMobileOpen(!mobileOpen)}
             className="lg:hidden p-2 text-slate-700 hover:text-blue-600 transition-colors"
             aria-label="Toggle menu"
+            aria-expanded={mobileOpen}
           >
             {mobileOpen ? (
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -137,8 +138,7 @@ export default function Navbar() {
       </div>
 
       {/* Mobile menu */}
-      {mobileOpen && (
-        <div className="lg:hidden border-t border-slate-200 bg-white max-h-[80vh] overflow-y-auto">
+        <div className={`lg:hidden border-t border-slate-200 bg-white transition-all duration-300 ${mobileOpen ? 'max-h-[80vh] overflow-y-auto' : 'max-h-0 overflow-hidden'}`}>
           <div className="px-4 py-4 space-y-1">
             {mainNavigation.map((item) => (
               <div key={item.label}>
@@ -201,7 +201,6 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-      )}
     </nav>
   );
 }

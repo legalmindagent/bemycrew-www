@@ -1,1 +1,55 @@
 @import "tailwindcss";
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Selection color */
+::selection {
+  background-color: #2563eb;
+  color: white;
+}
+
+/* Focus visible ring for all interactive elements */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Hero entrance animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* FeatureCard "Learn more" always visible on touch */
+@media (hover: none) {
+  .group .opacity-0 {
+    opacity: 1 !important;
+  }
+}

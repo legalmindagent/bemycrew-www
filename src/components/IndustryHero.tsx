@@ -16,13 +16,15 @@ export default function IndustryHero({ industry, description, icon }: IndustryHe
           backgroundSize: '40px 40px',
         }} />
       </div>
-      <div className="absolute top-1/2 right-0 w-[400px] h-[400px] bg-blue-600/20 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />
+      <div className="absolute top-1/2 right-0 w-[400px] h-[400px] bg-blue-600/20 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2 animate-pulse [animation-duration:4s]" />
+      <div className="absolute -bottom-32 left-1/4 w-[300px] h-[300px] bg-blue-500/10 rounded-full blur-3xl animate-pulse [animation-duration:5s]" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-3 mb-6">
-            <span className="w-14 h-14 flex items-center justify-center bg-white/10 backdrop-blur rounded-xl border border-white/10">
-              <Icon name={icon} className="w-8 h-8 text-white" />
+            <span className="relative w-16 h-16 flex items-center justify-center bg-white/10 backdrop-blur rounded-xl border border-white/10">
+              <span className="absolute inset-0 bg-blue-500/20 rounded-xl blur-lg" />
+              <Icon name={icon} className="relative w-9 h-9 text-white" />
             </span>
             <span className="text-sm font-medium text-blue-300 uppercase tracking-wider">
               {industry} Software
