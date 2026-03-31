@@ -8,27 +8,26 @@ import Icon from '@/components/Icon';
 export const metadata: Metadata = {
   title: 'Pricing — BeMyCrew',
   description:
-    'Simple, flat-rate pricing starting at $99/mo. No per-technician fees. No surprises. Choose Starter, Professional, or Enterprise.',
+    'Simple, flat-rate pricing starting at $49/mo. No per-technician fees. No surprises. AI voice agent or full dispatch platform.',
 };
 
 const plans = [
   {
-    name: 'Voice',
-    price: '$25',
+    name: 'Voice Starter',
+    price: '$49',
     period: 'mo',
-    description: 'AI phone agent that never misses a call.',
+    description: 'AI receptionist that never misses a call.',
     features: [
-      'AI phone agent (24/7)',
-      'Call transcription & summaries',
-      'Lead capture & qualification',
-      'SMS notifications for every call',
-      'Basic call dashboard',
-      'Forward urgent calls to your cell',
-      'Up to 100 calls/month*',
+      'AI answers 24/7',
+      '100 calls/month',
+      'SMS notifications',
+      'Call transcripts',
+      'Emergency detection',
+      'Setup in 90 seconds',
     ],
     highlighted: false,
     ctaText: 'Start Free Trial',
-    ctaHref: '/signup?plan=voice',
+    ctaHref: 'https://dispatchagent.vercel.app/setup-voice',
   },
   {
     name: 'Starter',
@@ -136,7 +135,7 @@ export default function PricingPage() {
     <>
       <Hero
         title="Simple, Transparent Pricing"
-        subtitle="Flat monthly rate starting at $25/mo. No per-technician fees. No surprises."
+        subtitle="Flat monthly rates starting at $49/mo. No per-technician fees. No surprises."
         primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
         secondaryCTA={{ text: 'Book a Demo', href: '/demo' }}
       />

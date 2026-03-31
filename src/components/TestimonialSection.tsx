@@ -12,7 +12,7 @@ const proofCards = [
     icon: 'DollarSign',
     headline: 'Flat-Rate Pricing',
     description:
-      'No per-technician fees. Know exactly what you\u2019ll pay every month. Start at $25/mo for Voice AI or $99/mo for the full platform.',
+      'No per-technician fees. Know exactly what you\u2019ll pay every month. Start at $49/mo for Voice AI or $99/mo for the full platform.',
     borderColor: 'border-t-orange-500',
   },
   {

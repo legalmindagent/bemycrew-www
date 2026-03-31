@@ -75,10 +75,10 @@ export default function HomePage() {
             Standalone Product
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
-            Just need a phone agent? Start at $25/mo
+            Your AI Receptionist. Answers Every Call. Books Every Job.
           </h2>
           <p className="mt-4 text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Not ready for the full platform? Our AI phone agent answers your calls 24/7, captures leads, and sends you notifications — for just $25/month. No commitment. Upgrade anytime.
+            AI voice agent answers your phone 24/7, handles emergencies, schedules appointments, and texts you every detail. Setup takes 90 seconds. Plans from $49/mo.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
