@@ -124,7 +124,7 @@ export const mainNavigation: NavItem[] = [
     },
   },
   {
-    label: 'Voice AI — $49/mo',
+    label: 'Voice AI — Free',
     href: '/voice-ai',
   },
   {

@@ -70,15 +70,15 @@ export default function HomePage() {
       {/* Voice AI Standalone Callout */}
       <section className="py-16 sm:py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-sm font-medium text-orange-300 bg-orange-500/10 border border-orange-500/20 rounded-full">
-            <Icon name="Phone" className="w-4 h-4" />
-            Standalone Product
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-sm font-medium text-green-300 bg-green-500/10 border border-green-500/20 rounded-full">
+            <Icon name="Code" className="w-4 h-4" />
+            Free & Open Source
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
-            Your AI Receptionist. Answers Every Call. Books Every Job.
+            Free & Open Source — AI Voice Agent
           </h2>
           <p className="mt-4 text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            AI voice agent answers your phone 24/7, handles emergencies, schedules appointments, and texts you every detail. Setup takes 90 seconds. Plans from $49/mo.
+            AI voice agent answers your phone 24/7, handles emergencies, schedules appointments, and texts you every detail. Setup takes 90 seconds. Free and open source.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
@@ -96,7 +96,7 @@ export default function HomePage() {
             </Link>
           </div>
           <p className="mt-4 text-xs text-slate-500">
-            Limitations apply. Includes 100 minutes/mo. Additional minutes billed at usage rates.
+            Part of the BeMyCrew open-source platform. Self-host or use our hosted version.
           </p>
         </div>
       </section>
@@ -181,11 +181,11 @@ export default function HomePage() {
               AI-First Platform
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
-              Four AI Engines. Zero Extra Cost.
+              Four AI Engines. Open Source.
             </h2>
             <p className="mt-4 text-lg text-slate-300 max-w-2xl mx-auto">
-              Every competitor charges extra for AI. BeMyCrew includes all four engines in
-              the Professional and Enterprise plans.
+              Every competitor charges extra for AI. BeMyCrew includes all four engines —
+              free and open source.
             </p>
           </div>
 

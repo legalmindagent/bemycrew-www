@@ -13,7 +13,7 @@ interface StatsSectionProps {
 const defaultStats: Stat[] = [
   { value: '30+', label: 'Features', icon: 'Layers' },
   { value: '4', label: 'AI Engines', icon: 'Brain' },
-  { value: '$49/mo', label: 'Starting Price', icon: 'DollarSign' },
+  { value: 'Open Source', label: 'Free & Open Source', icon: 'Code' },
   { value: '100%', label: 'Works Offline', icon: 'WifiOff' },
 ];
 

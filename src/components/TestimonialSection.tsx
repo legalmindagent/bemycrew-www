@@ -9,10 +9,10 @@ const proofCards = [
     borderColor: 'border-t-blue-500',
   },
   {
-    icon: 'DollarSign',
-    headline: 'Flat-Rate Pricing',
+    icon: 'Code',
+    headline: 'Free & Open Source',
     description:
-      'No per-technician fees. Know exactly what you\u2019ll pay every month. Start at $49/mo for Voice AI or $99/mo for the full platform.',
+      'No monthly fees. No per-technician pricing. BeMyCrew is open source \u2014 self-host it or use our hosted version. Free forever.',
     borderColor: 'border-t-orange-500',
   },
   {
@@ -41,7 +41,7 @@ export default function TestimonialSection() {
             Why Service Businesses Choose BeMyCrew
           </h2>
           <p className="mt-3 text-lg text-slate-600">
-            Real capabilities, honest pricing, no gimmicks.
+            Real capabilities. Open source. No gimmicks.
           </p>
         </div>
 

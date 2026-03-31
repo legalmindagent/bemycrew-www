@@ -55,51 +55,6 @@ const industries = [
   { icon: 'House', name: 'Landscaping' },
 ];
 
-const plans = [
-  {
-    name: 'Voice Starter',
-    price: '$49',
-    period: '/mo',
-    features: [
-      'AI answers 24/7',
-      '100 calls/month',
-      'SMS notifications',
-      'Call transcripts',
-      'Emergency detection',
-    ],
-    highlighted: false,
-  },
-  {
-    name: 'Voice Pro',
-    price: '$99',
-    period: '/mo',
-    badge: 'Most Popular',
-    features: [
-      'Everything in Starter',
-      '500 calls/month',
-      'Custom voice & script',
-      'Job auto-creation',
-      'Customer SMS updates',
-      'Priority support',
-    ],
-    highlighted: true,
-  },
-  {
-    name: 'Voice Business',
-    price: '$199',
-    period: '/mo',
-    features: [
-      'Everything in Pro',
-      'Unlimited calls',
-      'Multiple phone lines',
-      'Full dispatch system',
-      'Route optimization',
-      'Team management',
-    ],
-    highlighted: false,
-  },
-];
-
 const painStats = [
   { value: '$500–1,200', label: 'lost revenue per missed call' },
   { value: '68%', label: 'of customers won\'t leave a voicemail — they call your competitor' },
@@ -281,70 +236,24 @@ export default function VoiceAIPage() {
         </div>
       </section>
 
-      {/* Pricing */}
+      {/* Free & Open Source */}
       <section className="bg-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 text-center mb-4">
-            Simple Pricing. Real Value.
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 text-center">
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
+            Free & Open Source
           </h2>
-          <p className="text-slate-500 text-center mb-12 max-w-2xl mx-auto">
-            14-day free trial on all plans. No credit card required.
+          <p className="text-lg text-slate-500 mb-8 max-w-2xl mx-auto">
+            The AI Voice Agent is part of the BeMyCrew open-source platform. Set it up for free. Self-host or use our hosted version. More details coming soon.
           </p>
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            {plans.map((plan) => (
-              <div
-                key={plan.name}
-                className={`relative rounded-2xl p-6 sm:p-8 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg ${
-                  plan.highlighted
-                    ? 'bg-blue-600 text-white shadow-xl shadow-blue-600/20 ring-2 ring-blue-600'
-                    : 'bg-white border border-slate-200 shadow-sm'
-                }`}
-              >
-                {plan.badge && (
-                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-orange-500 text-white text-xs font-bold rounded-full shadow">
-                    {plan.badge}
-                  </div>
-                )}
-                <h3 className={`text-lg font-bold mb-1 ${plan.highlighted ? 'text-white' : 'text-slate-900'}`}>
-                  {plan.name}
-                </h3>
-                <div className="flex items-baseline gap-1 mb-6">
-                  <span className={`text-4xl font-bold ${plan.highlighted ? 'text-white' : 'text-slate-900'}`}>
-                    {plan.price}
-                  </span>
-                  <span className={`text-sm ${plan.highlighted ? 'text-blue-100' : 'text-slate-500'}`}>
-                    {plan.period}
-                  </span>
-                </div>
-                <ul className="space-y-3 mb-8">
-                  {plan.features.map((f) => (
-                    <li key={f} className="flex items-start gap-2">
-                      <Icon
-                        name="CheckCircle"
-                        className={`w-4 h-4 mt-0.5 shrink-0 ${plan.highlighted ? 'text-blue-200' : 'text-green-500'}`}
-                      />
-                      <span className={`text-sm ${plan.highlighted ? 'text-blue-50' : 'text-slate-600'}`}>
-                        {f}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-                <Link
-                  href={SETUP_URL}
-                  className={`block text-center py-3 rounded-lg text-sm font-semibold transition-colors ${
-                    plan.highlighted
-                      ? 'bg-white text-blue-600 hover:bg-blue-50'
-                      : 'bg-blue-600 text-white hover:bg-blue-700'
-                  }`}
-                >
-                  Start Free Trial
-                </Link>
-              </div>
-            ))}
-          </div>
-          <p className="text-center text-xs text-slate-400 mt-6">
-            All plans include 14-day free trial. No credit card required. Limitations apply.
-          </p>
+          <Link
+            href={SETUP_URL}
+            className="inline-flex items-center gap-2 px-8 py-3.5 text-base font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors shadow-lg"
+          >
+            Set Up Your AI Voice Agent
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </Link>
         </div>
       </section>
 
@@ -382,22 +291,22 @@ export default function VoiceAIPage() {
       <section className="bg-gradient-to-br from-blue-600 to-blue-700">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Your next missed call is costing you money.
+            Free. Open Source. Yours.
           </h2>
           <p className="text-lg text-blue-100 mb-8">
-            Fix it in 90 seconds.
+            Set up your AI voice agent in 90 seconds. No fees, no limits.
           </p>
           <Link
             href={SETUP_URL}
             className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-blue-600 bg-white hover:bg-blue-50 rounded-lg transition-colors shadow-lg"
           >
-            Set Up Your AI Voice Agent — Free
+            Set Up Your AI Voice Agent
             <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </Link>
           <p className="text-xs text-blue-200 mt-4">
-            14-day free trial. No credit card required. Limitations apply.
+            Open source. Self-host or use our hosted version.
           </p>
         </div>
       </section>

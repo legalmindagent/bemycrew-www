@@ -56,13 +56,13 @@ export default function Navbar() {
                 <Link
                   href={item.href || '#'}
                   className={`flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-colors ${
-                    item.label === 'Voice AI — $49/mo'
+                    item.label === 'Voice AI — Free'
                       ? 'text-blue-600 hover:text-blue-700 font-semibold'
                       : 'text-slate-700 hover:text-blue-600'
                   }`}
                 >
                   {item.label}
-                  {item.label === 'Voice AI — $49/mo' && (
+                  {item.label === 'Voice AI — Free' && (
                     <span className="ml-1 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide bg-orange-500 text-white rounded">New</span>
                   )}
                   {hasDropdown(item) && (
@@ -146,14 +146,14 @@ export default function Navbar() {
                   <Link
                     href={item.href}
                     className={`block px-3 py-2 text-base font-medium rounded-md ${
-                      item.label === 'Voice AI — $49/mo'
+                      item.label === 'Voice AI — Free'
                         ? 'text-blue-600 font-semibold hover:bg-blue-50'
                         : 'text-slate-900 hover:bg-slate-50'
                     }`}
                     onClick={() => setMobileOpen(false)}
                   >
                     {item.label}
-                    {item.label === 'Voice AI — $49/mo' && (
+                    {item.label === 'Voice AI — Free' && (
                       <span className="ml-2 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide bg-orange-500 text-white rounded">New</span>
                     )}
                   </Link>

@@ -16,11 +16,11 @@ export const comparisons: Comparison[] = [
     slug: 'fieldpulse',
     name: 'BeMyCrew vs FieldPulse',
     tagline:
-      'Everything FieldPulse offers, plus four AI capabilities they cannot match — at a lower price with no per-technician fees.',
+      'Everything FieldPulse offers, plus four AI capabilities they cannot match — free and open source with no per-technician fees.',
     advantages: [
       {
         area: 'Pricing Model',
-        bemycrew: 'Flat monthly rate ($99/$249/$499). Unlimited technicians. Price never changes as you grow.',
+        bemycrew: 'Free & open source. Self-host the entire platform at no cost, or use our hosted version. No per-technician fees ever.',
         competitor: 'Per-user pricing that increases every time you hire a new technician. Costs scale linearly with team size.',
       },
       {
@@ -64,11 +64,11 @@ export const comparisons: Comparison[] = [
     slug: 'servicetitan',
     name: 'BeMyCrew vs ServiceTitan',
     tagline:
-      'Enterprise-grade features without the enterprise price tag. Get 90% of ServiceTitan\'s capability at 10% of the cost.',
+      'Enterprise-grade features without the enterprise price tag. Free and open source — get 100% of the features at zero cost.',
     advantages: [
       {
         area: 'Pricing',
-        bemycrew: 'Starts at $99/month flat. Most businesses pay $249/month for the full platform. No setup fees, no contracts.',
+        bemycrew: 'Free & open source. The entire platform is available at no cost. Self-host or use our hosted version. No setup fees, no contracts.',
         competitor: 'Starts around $2,000-$4,000+/month. Requires annual contracts, setup fees, and per-technician charges. Built for large operations.',
       },
       {
@@ -98,7 +98,7 @@ export const comparisons: Comparison[] = [
       },
       {
         area: 'Feature Count',
-        bemycrew: '27 features included in every plan. Nothing hidden behind enterprise tiers.',
+        bemycrew: '27+ features included — all open source. Nothing hidden behind enterprise tiers.',
         competitor: 'Many features require Pro or Enterprise tier upgrades. Add-on modules increase monthly cost significantly.',
       },
       {
@@ -112,11 +112,11 @@ export const comparisons: Comparison[] = [
     slug: 'jobber',
     name: 'BeMyCrew vs Jobber',
     tagline:
-      'More features, more AI, and flat-rate pricing that does not punish you for growing your team.',
+      'More features, more AI, and completely free and open source — no fees that punish you for growing your team.',
     advantages: [
       {
         area: 'Pricing Model',
-        bemycrew: 'Flat monthly rate. Unlimited users on every plan. Your cost stays the same whether you have 3 or 30 technicians.',
+        bemycrew: 'Free & open source. Unlimited users. Self-host the entire platform at no cost or use our hosted version.',
         competitor: 'Per-user pricing on higher tiers. Adding technicians increases your monthly bill. Core plan limited to 1 user.',
       },
       {
@@ -160,11 +160,11 @@ export const comparisons: Comparison[] = [
     slug: 'housecall-pro',
     name: 'BeMyCrew vs Housecall Pro',
     tagline:
-      'All the features that made Housecall Pro popular, plus AI-powered dispatch, voice AI, and pricing that stays flat as you scale.',
+      'All the features that made Housecall Pro popular, plus AI-powered dispatch, voice AI, and it is completely free and open source.',
     advantages: [
       {
         area: 'Pricing',
-        bemycrew: 'Flat monthly rate ($99/$249/$499). Unlimited technicians. No per-user fees at any tier.',
+        bemycrew: 'Free & open source. Unlimited technicians. Self-host the entire platform at no cost or use our hosted version.',
         competitor: 'Per-technician pricing that increases as your team grows. Basic plan limited to 1 user.',
       },
       {
