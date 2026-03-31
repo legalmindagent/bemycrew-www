@@ -17,9 +17,9 @@ const values = [
   },
   {
     icon: 'DollarSign',
-    title: 'Affordable for Everyone',
+    title: 'Open Source for Everyone',
     description:
-      'Enterprise tools at small business prices. Flat monthly pricing with no per-technician fees means you can grow your team without watching your software bill grow faster.',
+      'Enterprise tools, free for every business. BeMyCrew is open source — self-host it or use our hosted version. You just pay the base cost of the services you use.',
   },
   {
     icon: 'Wrench',
@@ -70,26 +70,31 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-slate-900 mb-8">Our Story</h2>
           <div className="prose prose-slate prose-lg max-w-none space-y-6 text-slate-600 leading-relaxed">
             <p>
+              I&apos;m Kevin Palmer — EMT, truck driver, flight student, kayak instructor,
+              tree worker. I&apos;ve spent my career doing blue collar work alongside people
+              who bust their backs every day to keep their businesses running. And I got
+              tired of watching them get overcharged for basic software.
+            </p>
+            <p>
               Field service software has a pricing problem. The big platforms charge $150+
               per technician per month, locking out the small businesses that need help the
               most. A five-person HVAC company shouldn&apos;t pay $750/month just to schedule
               jobs and send invoices.
             </p>
             <p>
-              BeMyCrew was founded to change that. We believe every plumber, electrician,
-              and HVAC tech deserves the same powerful tools that enterprises use — at a
-              price that makes sense for a small crew.
+              So I built BeMyCrew — an enterprise-grade platform with 27+ features and
+              four AI engines — and then decided to open source the whole thing. Every
+              plumber, electrician, and HVAC tech deserves the same powerful tools that
+              enterprises use, without the enterprise price tag.
             </p>
             <p>
-              We started by studying what field service businesses actually need, then built
-              a platform from the ground up with flat-rate pricing, AI-powered automation,
-              and offline-first mobile tools. The result is a system with 27+ features and
-              four AI engines, starting at just $99 per month — no matter how many
-              technicians you add.
+              You pay only the base cost of the services you use — hosting, Twilio for
+              calls, Stripe for payments. Typically $5-15/month. The software itself is
+              free and open source under the MIT License. Details coming soon.
             </p>
             <p>
-              Our approach is simple: build the most complete field service platform
-              possible, price it fairly, and let small businesses compete with the big guys.
+              Look around, email us at hello@bemycrew.com, and follow us on social media.
+              We&apos;re building this in the open.
             </p>
           </div>
         </div>
@@ -140,8 +145,8 @@ export default function AboutPage() {
 
       <CTASection
         title="Join the BeMyCrew Community"
-        subtitle="Start your free trial and see why small businesses are switching to smarter field service management."
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        subtitle="We're open sourcing everything. Look around, and follow us on social media or email hello@bemycrew.com for updates."
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
         secondaryCTA={{ text: 'Book a Demo', href: '/demo' }}
       />
     </>

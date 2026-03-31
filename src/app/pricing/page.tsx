@@ -31,7 +31,7 @@ const whyOpenSource = [
     icon: 'Heart',
     title: 'Affordable for Everyone',
     description:
-      'No monthly fees. No per-technician pricing. Run it yourself or use our hosted version.',
+      'Open source — free forever. Run it yourself or use our hosted version. You pay only the base cost of services.',
   },
   {
     icon: 'Users',

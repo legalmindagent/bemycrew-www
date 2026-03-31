@@ -23,7 +23,7 @@ const resources = [
     icon: 'HelpCircle',
     title: 'FAQ',
     description:
-      'Quick answers to the most common questions about BeMyCrew features, pricing, and setup.',
+      'Quick answers to the most common questions about BeMyCrew features, setup, and open-source licensing.',
     href: '/faq',
     cta: 'View FAQs',
   },
@@ -53,11 +53,11 @@ const resources = [
   },
   {
     icon: 'DollarSign',
-    title: 'Pricing',
+    title: 'Open Source',
     description:
-      'Simple, flat-rate pricing with no per-user fees. See which plan is right for your business.',
-    href: '/pricing',
-    cta: 'View Pricing',
+      'BeMyCrew is free and open source under the MIT License. You pay only the base cost of services you use.',
+    href: '/about',
+    cta: 'Learn More',
   },
 ];
 
@@ -68,7 +68,7 @@ export default function ResourcesPage() {
         title="Resources & Support"
         subtitle="Everything you need to evaluate, set up, and succeed with BeMyCrew field service management software."
         badge="Resources Hub"
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
         secondaryCTA={{ text: 'Book a Demo', href: '/demo' }}
       />
 
@@ -109,9 +109,9 @@ export default function ResourcesPage() {
 
       <CTASection
         title="Still Have Questions?"
-        subtitle="Our team is here to help. Book a free demo or start your trial — no credit card required."
+        subtitle="Our team is here to help. Book a free demo or get started — open source, MIT License."
         primaryCTA={{ text: 'Book a Demo', href: '/demo' }}
-        secondaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        secondaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
       />
     </>
   );

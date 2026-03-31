@@ -16,7 +16,7 @@ export const comparisons: Comparison[] = [
     slug: 'fieldpulse',
     name: 'BeMyCrew vs FieldPulse',
     tagline:
-      'Everything FieldPulse offers, plus four AI capabilities they cannot match — free and open source with no per-technician fees.',
+      'Everything FieldPulse offers, plus four AI capabilities they cannot match — open source, free forever.',
     advantages: [
       {
         area: 'Pricing Model',

@@ -6,24 +6,24 @@ import CTASection from '@/components/CTASection';
 export const metadata: Metadata = {
   title: 'FAQ — BeMyCrew',
   description:
-    'Frequently asked questions about BeMyCrew. Learn about pricing, features, free trial, setup, and more.',
+    'Frequently asked questions about BeMyCrew. Learn about features, open source, setup, and more.',
 };
 
 const faqs = [
   {
     question: 'What is BeMyCrew?',
     answer:
-      'BeMyCrew is an AI-powered field service management platform built specifically for small businesses in the trades. It helps you manage scheduling, dispatch, invoicing, customer communication, and more — all from one place. We combine powerful features with affordable pricing so you can compete with larger companies without breaking the bank.',
+      'BeMyCrew is an open-source, AI-powered field service management platform built specifically for small businesses in the trades. It helps you manage scheduling, dispatch, invoicing, customer communication, and more — all from one place. We are open sourcing the entire platform so every small business can access enterprise-grade tools for free.',
   },
   {
     question: 'How much does BeMyCrew cost?',
     answer:
-      'BeMyCrew starts at $59/month for our Starter plan, which includes all the core features most small businesses need. We also offer Professional and Enterprise plans with additional features like AI dispatch, VoIP phone systems, and advanced reporting. Visit our pricing page for full details.',
+      'BeMyCrew is open source. You pay only the base cost of services — typically $5-15/month for Twilio, hosting, etc. No SaaS markup.',
   },
   {
-    question: 'Is there a free trial?',
+    question: 'Is BeMyCrew really free?',
     answer:
-      'Yes! We offer a 14-day free trial with full access to all features. No credit card required. You can explore the entire platform, set up your business, and see how BeMyCrew works before committing.',
+      'BeMyCrew is free and open source under the MIT License. You can self-host the entire platform for free. A hosted version is coming soon. Email hello@bemycrew.com or follow us for details.',
   },
   {
     question: 'How long does it take to get set up?',
@@ -48,17 +48,17 @@ const faqs = [
   {
     question: 'Can I cancel at any time?',
     answer:
-      'Yes, you can cancel your subscription at any time with no cancellation fees or long-term contracts. If you cancel, you will retain access to your account through the end of your current billing period. We also provide a 30-day window to export all your data after cancellation.',
+      'BeMyCrew is open source — there is nothing to cancel. You own the software. If you use our hosted version, you can leave at any time with no fees or contracts. We also provide a full data export so your data is always yours.',
   },
   {
     question: 'What kind of support do you offer?',
     answer:
-      'We offer email and chat support Monday through Friday, 8am to 6pm CT, and Saturday 9am to 1pm CT. Professional and Enterprise plan customers also get priority support with faster response times. We also have a growing library of help articles and video tutorials.',
+      'We offer community support via GitHub and email support at hello@bemycrew.com. We also have a growing library of help articles and video tutorials.',
   },
   {
     question: 'How is BeMyCrew different from other field service software?',
     answer:
-      'BeMyCrew is built from the ground up with AI at its core and designed specifically for small businesses. While competitors like ServiceTitan target large enterprises with complex (and expensive) setups, BeMyCrew delivers powerful features — including AI-powered dispatch, voice AI, and smart scheduling — at a price small businesses can actually afford.',
+      'BeMyCrew is open source and built from the ground up with AI at its core. While competitors like ServiceTitan charge hundreds per technician per month, BeMyCrew is free to self-host. We deliver powerful features — including AI-powered dispatch, voice AI, and smart scheduling — without the enterprise price tag. Open source means you own your tools and your data.',
   },
   {
     question: 'Can I import my existing data?',
@@ -79,7 +79,7 @@ export default function FAQPage() {
         title="Frequently Asked Questions"
         subtitle="Everything you need to know about BeMyCrew. Can't find what you're looking for? Reach out to our team."
         primaryCTA={{ text: 'Contact Us', href: '/contact' }}
-        secondaryCTA={{ text: 'View Pricing', href: '/pricing' }}
+        secondaryCTA={{ text: 'Learn More', href: '/about' }}
       />
 
       <FAQSection faqs={faqs} />

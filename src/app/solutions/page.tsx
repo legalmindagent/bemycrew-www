@@ -18,7 +18,7 @@ export default function SolutionsPage() {
         title="Built for Your Industry"
         subtitle="Specialized solutions for every trade. BeMyCrew adapts to the way your business works — not the other way around."
         badge="Industry Solutions"
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
         secondaryCTA={{ text: 'View Features', href: '/features' }}
       />
 
@@ -70,7 +70,7 @@ export default function SolutionsPage() {
         title="Not Sure Which Solution Fits?"
         subtitle="Book a free demo and we will walk you through the features that matter most for your trade."
         primaryCTA={{ text: 'Book a Demo', href: '/demo' }}
-        secondaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        secondaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
       />
     </>
   );

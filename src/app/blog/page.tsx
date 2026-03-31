@@ -24,10 +24,10 @@ const placeholderArticles = [
     readTime: '8 min read',
   },
   {
-    title: 'The True Cost of Per-Technician Pricing',
-    category: 'Pricing',
+    title: 'Why We\'re Open Sourcing BeMyCrew',
+    category: 'Open Source',
     description:
-      'Why per-user software pricing punishes growing businesses — and how flat-rate alternatives save thousands per year.',
+      'Enterprise field service software costs too much. We decided to open source the whole platform — here\'s why and what it means for your business.',
     readTime: '5 min read',
   },
   {
@@ -60,7 +60,7 @@ export default function BlogPage() {
         title="Resources & Insights"
         subtitle="Tips, guides, and industry insights to help you run a more profitable field service business."
         badge="Blog"
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
         secondaryCTA={{ text: 'View Features', href: '/features' }}
       />
 
@@ -104,8 +104,8 @@ export default function BlogPage() {
 
       <CTASection
         title="Do Not Wait for the Blog — Try BeMyCrew Today"
-        subtitle="Start your free trial and see how BeMyCrew can transform your field service business."
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        subtitle="BeMyCrew is open source. Look around and see how it can transform your field service business."
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
         secondaryCTA={{ text: 'Book a Demo', href: '/demo' }}
       />
     </>

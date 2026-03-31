@@ -30,10 +30,10 @@ export default function FeaturesPage() {
     <>
       <Hero
         title="Everything You Need to Run Your Business"
-        subtitle="27+ features built for field service companies — scheduling, dispatch, invoicing, payments, AI, and more. One platform, one price, no per-user fees."
+        subtitle="27+ features built for field service companies — scheduling, dispatch, invoicing, payments, AI, and more. One platform, open source, free forever."
         badge="Full Feature Suite"
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
-        secondaryCTA={{ text: 'View Pricing', href: '/pricing' }}
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
+        secondaryCTA={{ text: 'Learn More', href: '/about' }}
       />
 
       {categoryOrder.map((category) => (
@@ -68,8 +68,8 @@ export default function FeaturesPage() {
 
       <CTASection
         title="Ready to See It in Action?"
-        subtitle="Start your free trial today — no credit card required. Set up in under 15 minutes."
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        subtitle="Open source — details coming soon. Set up in under 15 minutes."
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
         secondaryCTA={{ text: 'Book a Demo', href: '/demo' }}
       />
     </>

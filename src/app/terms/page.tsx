@@ -59,15 +59,15 @@ export default function TermsPage() {
           </p>
 
           <h2 className="text-xl font-semibold text-slate-900 mt-10 mb-4">
-            4. Payment Terms
+            4. Costs and Services
           </h2>
           <p className="text-base text-slate-600 leading-relaxed">
-            Certain features of the Services require payment of fees. You agree to pay all
-            applicable fees as described on our pricing page. Fees are billed in advance on
-            a monthly or annual basis and are non-refundable except as expressly stated in
-            these Terms. We reserve the right to change our pricing with 30 days&apos;
-            notice. If your payment method fails, we may suspend access to paid features
-            until payment is received.
+            BeMyCrew is open-source software provided under the MIT License. The software
+            itself is free. Certain third-party services used by the platform (such as
+            Twilio for voice/SMS, hosting providers, and payment processors) may incur
+            costs that are your responsibility. These costs are determined by the
+            third-party providers, not by BeMyCrew. If you use our hosted version, any
+            applicable fees will be clearly described before you incur them.
           </p>
 
           <h2 className="text-xl font-semibold text-slate-900 mt-10 mb-4">

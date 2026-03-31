@@ -110,10 +110,10 @@ export default function Navbar() {
               Log In
             </Link>
             <Link
-              href="/signup"
+              href="https://dispatchagent.vercel.app"
               className="text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 px-5 py-2.5 rounded-lg transition-colors shadow-sm"
             >
-              Start Free Trial
+              Get Started Free
             </Link>
           </div>
 
@@ -193,10 +193,10 @@ export default function Navbar() {
                 Log In
               </Link>
               <Link
-                href="/signup"
+                href="https://dispatchagent.vercel.app"
                 className="block text-center px-3 py-2.5 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-lg"
               >
-                Start Free Trial
+                Get Started Free
               </Link>
             </div>
           </div>

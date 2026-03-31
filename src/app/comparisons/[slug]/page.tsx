@@ -41,7 +41,7 @@ export default async function ComparisonDetailPage({ params }: PageProps) {
         title={comparison.name}
         subtitle={comparison.tagline}
         badge="Competitor Comparison"
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
         secondaryCTA={{ text: 'View All Comparisons', href: '/comparisons' }}
       />
 
@@ -87,8 +87,8 @@ export default async function ComparisonDetailPage({ params }: PageProps) {
 
       <CTASection
         title={`Ready to Leave ${competitorName} Behind?`}
-        subtitle="Start your free trial and see the difference. We will even help you migrate your data."
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        subtitle="BeMyCrew is open source. See the difference for yourself — we will even help you migrate your data."
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
         secondaryCTA={{ text: 'Book a Demo', href: '/demo' }}
       />
     </>

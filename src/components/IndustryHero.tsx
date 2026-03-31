@@ -43,10 +43,10 @@ export default function IndustryHero({ industry, description, icon }: IndustryHe
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
             <Link
-              href="/signup"
+              href="https://dispatchagent.vercel.app"
               className="inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition-colors shadow-lg shadow-orange-500/25"
             >
-              Start Free Trial
+              Get Started Free
               <svg className="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>

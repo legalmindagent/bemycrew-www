@@ -7,7 +7,7 @@ import { comparisons } from '@/data/comparisons';
 export const metadata: Metadata = {
   title: 'Compare BeMyCrew to Competitors — BeMyCrew',
   description:
-    'See how BeMyCrew compares to FieldPulse, ServiceTitan, Jobber, and Housecall Pro. More features, AI-powered tools, and flat-rate pricing.',
+    'See how BeMyCrew compares to FieldPulse, ServiceTitan, Jobber, and Housecall Pro. More features, AI-powered tools, and open source.',
 };
 
 export default function ComparisonsPage() {
@@ -15,10 +15,10 @@ export default function ComparisonsPage() {
     <>
       <Hero
         title="See How BeMyCrew Compares"
-        subtitle="More features, four AI capabilities no competitor can match, and flat-rate pricing that does not punish you for growing."
+        subtitle="More features, four AI capabilities no competitor can match, and open source — free forever."
         badge="Competitor Comparisons"
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
-        secondaryCTA={{ text: 'View Pricing', href: '/pricing' }}
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
+        secondaryCTA={{ text: 'Learn More', href: '/about' }}
       />
 
       <section className="py-16 sm:py-24">
@@ -69,8 +69,8 @@ export default function ComparisonsPage() {
 
       <CTASection
         title="Ready to Switch?"
-        subtitle="Start your free trial and see the BeMyCrew difference for yourself. No credit card, no contracts."
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        subtitle="BeMyCrew is open source. See the difference for yourself — details coming soon."
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
         secondaryCTA={{ text: 'Book a Demo', href: '/demo' }}
       />
     </>

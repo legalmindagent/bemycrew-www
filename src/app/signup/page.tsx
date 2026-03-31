@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Start Your Free Trial — BeMyCrew',
+  title: 'Get Started Free — BeMyCrew',
   description:
-    'Sign up for BeMyCrew and start your free trial. AI-powered field service management for small businesses.',
+    'Sign up for BeMyCrew. Open source, AI-powered field service management for small businesses.',
 };
 
 export default function SignupPage() {
@@ -13,10 +13,10 @@ export default function SignupPage() {
       <div className="w-full max-w-lg mx-auto px-4 sm:px-6">
         <div className="text-center mb-8">
           <h1 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">
-            Start Your Free Trial
+            Get Started Free
           </h1>
           <p className="mt-3 text-base text-slate-600">
-            No credit card required. Get up and running in minutes.
+            Open source — MIT License. Get up and running in minutes.
           </p>
         </div>
 

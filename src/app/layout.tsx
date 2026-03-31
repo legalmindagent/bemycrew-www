@@ -12,11 +12,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'BeMyCrew — Dispatch Smarter. Grow Faster.',
   description:
-    'AI-powered field service management software built for small businesses. Scheduling, dispatch, estimates, invoicing, CRM, and 4 AI engines — starting at $99/mo with no per-technician fees.',
+    'Free, open-source AI-powered field service management. Voice agent, smart dispatch, scheduling, invoicing — costs $5-15/month to run. MIT License.',
   openGraph: {
     title: 'BeMyCrew — Dispatch Smarter. Grow Faster.',
     description:
-      'AI-powered field service management software built for small businesses. Scheduling, dispatch, estimates, invoicing, CRM, and 4 AI engines — starting at $99/mo.',
+      'Free, open-source AI-powered field service management. Voice agent, smart dispatch, scheduling, invoicing — costs $5-15/month to run. MIT License.',
     url: 'https://bemycrew.com',
     siteName: 'BeMyCrew',
     type: 'website',

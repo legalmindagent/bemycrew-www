@@ -5,14 +5,14 @@ const proofCards = [
     icon: 'Brain',
     headline: '4 AI Engines Included',
     description:
-      'The only field service platform with AI dispatch, voice AI, chatbot, and inventory AI \u2014 all included in Professional and Enterprise plans.',
+      'The only field service platform with AI dispatch, voice AI, chatbot, and inventory AI \u2014 all included, open source.',
     borderColor: 'border-t-blue-500',
   },
   {
     icon: 'Code',
     headline: 'Free & Open Source',
     description:
-      'No monthly fees. No per-technician pricing. BeMyCrew is open source \u2014 self-host it or use our hosted version. Free forever.',
+      'BeMyCrew is open source \u2014 free forever. Self-host it or use our hosted version. You pay only the base cost of services.',
     borderColor: 'border-t-orange-500',
   },
   {

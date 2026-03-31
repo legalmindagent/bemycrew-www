@@ -103,7 +103,7 @@ export default function VoiceAIPage() {
       <Hero
         title="Your AI Receptionist. Answers Every Call. Books Every Job."
         subtitle="Stop missing calls. BeMyCrew's AI voice agent answers your phone 24/7, handles emergencies, schedules appointments, and texts you every detail. Setup takes 90 seconds."
-        primaryCTA={{ text: 'Start Free Trial', href: SETUP_URL }}
+        primaryCTA={{ text: 'Get Started Free', href: SETUP_URL }}
         secondaryCTA={{ text: 'See How It Works', href: '#how-it-works' }}
         badge="Setup in 90 Seconds"
       />

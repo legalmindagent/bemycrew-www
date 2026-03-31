@@ -114,10 +114,10 @@ export const mainNavigation: NavItem[] = [
         {
           label: 'BeMyCrew vs',
           links: [
-            { label: 'vs FieldPulse', href: '/comparisons/fieldpulse', description: 'More AI, flat-rate pricing' },
-            { label: 'vs ServiceTitan', href: '/comparisons/servicetitan', description: '90% of the features at 10% of the cost' },
-            { label: 'vs Jobber', href: '/comparisons/jobber', description: 'More features, no per-user fees' },
-            { label: 'vs Housecall Pro', href: '/comparisons/housecall-pro', description: 'AI-powered, flat-rate pricing' },
+            { label: 'vs FieldPulse', href: '/comparisons/fieldpulse', description: 'More AI, open source' },
+            { label: 'vs ServiceTitan', href: '/comparisons/servicetitan', description: 'Open source, AI-powered' },
+            { label: 'vs Jobber', href: '/comparisons/jobber', description: 'More features, open source' },
+            { label: 'vs Housecall Pro', href: '/comparisons/housecall-pro', description: 'AI-powered, open source' },
           ],
         },
       ],
@@ -185,6 +185,6 @@ export const footerNavigation = {
 };
 
 export const ctaNavigation = {
-  primary: { label: 'Start Free Trial', href: '/signup' },
+  primary: { label: 'Get Started Free', href: 'https://dispatchagent.vercel.app' },
   secondary: { label: 'Book a Demo', href: '/demo' },
 };

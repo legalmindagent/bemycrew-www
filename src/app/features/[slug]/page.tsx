@@ -135,7 +135,7 @@ export default async function FeatureDetailPage({ params }: PageProps) {
         title={feature.name}
         subtitle={feature.longDescription}
         badge="Feature"
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
         secondaryCTA={{ text: 'View All Features', href: '/features' }}
       >
         {heroMockup}
@@ -253,8 +253,8 @@ export default async function FeatureDetailPage({ params }: PageProps) {
       {/* ─── CTA ───────────────────────────────────────────────────── */}
       <CTASection
         title={`Try ${feature.name} Free`}
-        subtitle="No credit card required. Set up in under 15 minutes and see the difference today."
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        subtitle="Open source — details coming soon. Set up in under 15 minutes and see the difference today."
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
         secondaryCTA={{ text: 'Book a Demo', href: '/demo' }}
       />
     </>

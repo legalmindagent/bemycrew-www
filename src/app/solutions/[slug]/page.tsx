@@ -78,7 +78,7 @@ export default async function IndustryDetailPage({ params }: PageProps) {
               Features Built for {industry.name}
             </h2>
             <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
-              Every feature below is included in your BeMyCrew subscription — no add-ons, no hidden fees.
+              Every feature below is included in BeMyCrew — open source, no add-ons, no hidden fees.
             </p>
           </div>
 
@@ -101,8 +101,8 @@ export default async function IndustryDetailPage({ params }: PageProps) {
 
       <CTASection
         title={`Ready to Transform Your ${industry.name} Business?`}
-        subtitle="Start your free trial today. No credit card required, no contracts, set up in under 15 minutes."
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        subtitle="Open source — details coming soon. Set up in under 15 minutes."
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
         secondaryCTA={{ text: 'Book a Demo', href: '/demo' }}
       />
     </>

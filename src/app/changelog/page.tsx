@@ -72,7 +72,7 @@ export default function ChangelogPage() {
       <Hero
         title="What's New"
         subtitle="We ship improvements every week. Here's what we've been building to help your field service business grow."
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
         secondaryCTA={{ text: 'View All Features', href: '/features' }}
         badge="Changelog"
       />
@@ -144,8 +144,8 @@ export default function ChangelogPage() {
 
       <CTASection
         title="Ready to Try These Features?"
-        subtitle="Start your free 14-day trial and see what BeMyCrew can do for your business. No credit card required."
-        primaryCTA={{ text: 'Start Free Trial', href: '/signup' }}
+        subtitle="BeMyCrew is free and open source. See what it can do for your business."
+        primaryCTA={{ text: 'Get Started Free', href: 'https://dispatchagent.vercel.app' }}
         secondaryCTA={{ text: 'Book a Demo', href: '/demo' }}
       />
     </>
